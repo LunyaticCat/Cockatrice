@@ -76,10 +76,12 @@ set(cockatrice_SOURCES
     src/server/local_server.cpp
     src/server/local_server_interface.cpp
     src/utility/logger.cpp
+    src/client/ui/widgets/general/display/labeled_input.cpp
     src/main.cpp
     src/server/message_log_widget.cpp
     src/client/ui/layouts/overlap_layout.cpp
     src/client/ui/widgets/general/layout_containers/overlap_widget.cpp
+    src/client/ui/widgets/general/layout_containers/overlap_control_widget.cpp
     src/server/pending_command.cpp
     src/game/phase.cpp
     src/client/ui/phases_toolbar.cpp
